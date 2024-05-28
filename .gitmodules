@@ -1,0 +1,3 @@
+[submodule "Hannah/vendor/spdlog"]
+	path = Hannah/vendor/spdlog
+	url = https://github.com/gabime/spdlog

@@ -6,7 +6,11 @@ extern Hannah::Application* Hannah::CreateApplication();
 
 int main(int argc, char** argv)
 {
-	printf("Hannah Engine\n");
+	Hannah::Log::Init();
+	HN_CORE_WARN("Initialized Log!");
+	int a = 5;
+	HN_INFO("Hello! Var={0}", a);
+
 	auto app = Hannah::CreateApplication();
 	app->Run();
 	delete app;
