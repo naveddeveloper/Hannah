@@ -1,7 +1,7 @@
 #include <Hannah.h>
 
 class Sandbox : public Hannah::Application
-{
+{ 
 public:
 	Sandbox()
 	{
